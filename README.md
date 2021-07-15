@@ -33,7 +33,7 @@ This script allows players to search any aircon in the game to acquire items tha
 - 0.00ms/0.01ms
 
 ### Updates
-* tNo Cops online notification
+* No Cops online notification
 - No Animation when there is no cops
 
 
