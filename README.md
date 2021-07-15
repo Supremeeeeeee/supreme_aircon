@@ -6,7 +6,7 @@ This script allows players to search any aircon in the game to acquire items tha
 ### Actions
 * Search any aircon in the city
 * There's a chance you won't find anything ( notification to be added for this )
-* Aircons have a cooldown timer after you search it (5 mins) < Configurable
+* Aircons have a cooldown timer after you search it (40 seconds)
 * Get random items from aircons based on chance, you always get scrap or steel
 * You have to use your own npc script
 * Utilizes BT-Target to search aircons
