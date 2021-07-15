@@ -1,5 +1,4 @@
 ## SUPREME AIRCON
-![aircondp|690x495, 50%](upload://dDZB6z8qUjUm9wscQ5JrdChurcr.jpeg)
 
 
 This script allows players to search any aircon in the game to acquire items that they find. This is easily modified and can have the potential to be a good script
