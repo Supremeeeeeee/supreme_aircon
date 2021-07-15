@@ -1,9 +1,12 @@
 ## SUPREME AIRCON
+![aircondp|690x495, 50%](upload://dDZB6z8qUjUm9wscQ5JrdChurcr.jpeg)
+
 
 This script allows players to search any aircon in the game to acquire items that they find. This is easily modified and can have the potential to be a good script
 
 ### Actions
 * Search any aircon in the city
+* There's a chance you won't find anything ( notification to be added for this )
 * Aircons have a cooldown timer after you search it (5 mins) < Configurable
 * Get random items from aircons based on chance, you always get scrap or steel
 * You have to use your own npc script
@@ -11,12 +14,12 @@ This script allows players to search any aircon in the game to acquire items tha
 * Go to location and sell scrap metal for money ( map blip )
 * Custom sell scrap or steel menu
 * Police get notified on stealing air cons ( can set the percentage in config ) (linden-outlawalert)
-* Can set how money cops online before you can scrap
+* Can set how many cops online before you can scrap
 
 (Some code from [OnyxDumpster](https://github.com/HiHowdy/onyxDumpsters)) props to the original code source
 
 ### Required Actions
-- Add item 'scrappart' to your item database  (can change item)
+- Add item 'scrappart' to your item database (can change item)
 - Add item 'steel' to your item database  (can change item)
 
 ### Required Scripts
@@ -33,11 +36,11 @@ This script allows players to search any aircon in the game to acquire items tha
 * https://i.imgur.com/uLL0u3C.png
 - 0.00ms/0.01ms
 
-### Updates
+### Future Updates
 * No Cops online notification
 - No Animation when there is no cops
+* Notification for no item found
 
-
+[Download](https://github.com/Supremeeeeeee/supreme_aircon)
 There may be bugs so feel free to let me know :)
-
 
