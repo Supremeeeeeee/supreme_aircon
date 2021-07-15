@@ -74,7 +74,7 @@ exports.rprogress:Start('Searching Aircon...', 10000)
     ClearPedTasks(ped)
     TriggerServerEvent("supreme_aircon:GiveReward")
     TriggerEvent("supreme_aircon:PoliceNotify")
-    timer[aircon] = 10
+    timer[aircon] = 0
     canSearch = true
 end
 
