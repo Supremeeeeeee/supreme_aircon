@@ -89,7 +89,7 @@ Citizen.CreateThread(function()
                 time = time - 1
             end
         end
-        Citizen.Wait(60000)
+        Citizen.Wait(120000)
     end
 end)
 
