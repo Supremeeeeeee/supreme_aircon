@@ -16,8 +16,8 @@ This script allows players to search any aircon in the game to acquire items tha
 (Some code from [OnyxDumpster](https://github.com/HiHowdy/onyxDumpsters)) props to the original code source
 
 ### Required Actions
-- Add item 'scrappart' to your item database (optional)
-- Add item 'steel' to your item database (optional)
+- Add item 'scrappart' to your item database  (can change item)
+- Add item 'steel' to your item database  (can change item)
 
 ### Required Scripts
 * [mythic_notify](https://github.com/JayMontana36/mythic_notify)
@@ -28,6 +28,7 @@ This script allows players to search any aircon in the game to acquire items tha
 * ESX
 
 ### Preview
+* [Video Preview](https://streamable.com/x3ws91)
 * https://i.imgur.com/oHvJ2qx.png
 * https://i.imgur.com/uLL0u3C.png
 - 0.00ms/0.01ms
