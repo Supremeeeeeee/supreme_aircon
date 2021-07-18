@@ -95,8 +95,7 @@ end)
 
 RegisterNetEvent("supreme_aircon:PoliceNotify")
 AddEventHandler("supreme_aircon:PoliceNotify", function()
-local randomReport = math.random(1, Config.CallCopsPercent)
-if randomReport == Config.CallCopsPercent then
+if exports['linden_outlawalert']:zoneChance('Custom', 2) then
 local pos = GetEntityCoords(PlayerPedId())
 local data = {displayCode = '420', description = 'Aircon unit theft in progress', isImportant = 1, recipientList = {'police'}, length = '4000'}
 local dispatchData = {dispatchData = data, caller = 'Local', coords = vector3(pos.x, pos.y, pos.z)}
