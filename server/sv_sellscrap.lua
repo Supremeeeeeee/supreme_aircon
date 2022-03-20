@@ -8,13 +8,13 @@ RegisterServerEvent("supreme_aircon:sellScrap")
 AddEventHandler("supreme_aircon:sellScrap", function()
     local player = ESX.GetPlayerFromId(source)
 
-    local currentBottles = player.getInventoryItem("scrappart")["count"]
+    local currentBottles = player.getInventoryItem("scrapmetal")["count"]
     
     if currentBottles > 0 then
         math.randomseed(os.time())
         local randomMoney = math.random(1000,7000)
 
-        player.removeInventoryItem("scrappart", currentBottles)
+        player.removeInventoryItem("scrapmetal", math.random(200,500))
         player.addMoney(randomMoney)
 
 			TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = 'You got payed $' .. randomMoney, })
