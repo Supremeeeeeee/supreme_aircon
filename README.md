@@ -43,3 +43,12 @@ This script allows players to search any aircon in the game to acquire items tha
 [Download](https://github.com/Supremeeeeeee/supreme_aircon)
 There may be bugs so feel free to let me know :)
 
+UPDATE 20/03/2022
+
+- You can rob parking meters 
+- You can rob pay phones
+- You can loot bins.
+
+Updated Video
+https://streamable.com/3pqd5q
+
