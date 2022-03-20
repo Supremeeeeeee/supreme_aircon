@@ -3,7 +3,7 @@ games { 'rdr3', 'gta5' }
 
 author 'DuncanEll - (SUPREME)'
 description 'supreme_aircon'
-version '1.0.0'
+version '2.0.0'
 
 dependencies {
     "PolyZone"
