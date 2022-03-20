@@ -25,23 +25,21 @@ Citizen.CreateThread(function()
         end
 end)
 
-
-    local ped = {
-        `mp_m_waremech_01`,
-    }
-
--- bt-target
-exports['bt-target']:AddTargetModel(ped, {
-    options = {
-        {
-            event = 'supreme_aircon:sellScrapMenu',
-            icon = 'fas fa-dollar-sign',
-            label = 'Sell Scrap'
+exports['qtarget']:AddCircleZone("sellscrap", vector3(-460.2915, -1702.0350, 18.8374), 1.35, {
+    name="sellscrap",
+    debugPoly=false,
+    useZ=true,
+    }, {
+        options = {
+            {
+                event = 'supreme_aircon:sellScrapMenu',
+                icon = 'fas fa-dollar-sign',
+                label = 'Sell Scrap'
+            },
         },
-    },
-    job = {'all'},
-    distance = 1.5
-})
+        distance = 1.5
+    })
+
 
 -- nh-context
 RegisterNetEvent('supreme_aircon:sellScrapMenu', function(data)
@@ -57,7 +55,7 @@ RegisterNetEvent('supreme_aircon:sellScrapMenu', function(data)
         {
             id = 2,
             header = "🔴 Sell Scrap Parts",
-            txt = "- Scrapyard accepts 500 scrap parts at one time!",
+            txt = "",
             params = {
                 event = "supreme_aircon:SellScrap"
             }
@@ -65,7 +63,7 @@ RegisterNetEvent('supreme_aircon:sellScrapMenu', function(data)
         {
             id = 3,
             header = "🔴 Sell Steel",
-            txt = "- Scrapyard accepts 3 steel parts at one time!",
+            txt = "",
             params = {
                 event = "supreme_aircon:SellSteel"
             }
